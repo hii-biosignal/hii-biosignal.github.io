@@ -9,21 +9,6 @@ font-family: 'Roboto', sans-serif;
 ==================================== */
 
 
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header-top
-3.  Top-area
-4.  Welcome-hero
-5.  List-topics
-6.  Works  
-7.  Explore
-8.  Reviews
-9.  Counter
-10. Blog
-11. Subscribe
-12. Footer
-==========================================*/
-
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
@@ -360,6 +345,6 @@ img.profile {
 }
 
 p.profile_description, p.left {
-    text-align: left;
+    text-align: left; line-height: 1.4 !important;
 }
 /*========================Thank you=================
