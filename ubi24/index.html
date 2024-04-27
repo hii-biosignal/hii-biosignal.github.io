@@ -3,8 +3,21 @@
 
 <head>
     <base href=".">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/> -->
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/style.css"/>
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css" >	
     <meta name="description" content="Conference Template">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
@@ -13,110 +26,217 @@
 </head>
 
 <body>
+    		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class="scroll active"><a href="#about">About</a></li>
+			                    <li class="scroll"><a href="#themes">Themes</a></li>
+			                    <li class="scroll"><a href="#cfp">CfP</a></li>
+			                    <li class="scroll"><a href="#organizers">Organizers</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Advancing Physiological Methods in Human-Information Interaction  </h2>
+                    <p>Workshop at Ubicomp/ISWC 2024 <br>
+                    October 5-6, 2024 <br> Melbourne, Australia </p>
+				</div>
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
 
 
-  <h1> Advancing Physiological Methods in Human-Information Interaction </h1>
+        <section id="about" class="works">
+			<div class="container">
+                <div class="section-header">
+                    <br>
+                    <h2>About This Workshop</h2>
+                    <p>
+                        With the advancement of pervasive technology, information interaction has become increasingly ubiquitous. In these diverse information access devices and interfaces, it is crucial to understand and improve the user experience during human-information interaction. In recent years, we have seen a rapid uptake of physiological sensors used to estimate the cognitive aspect of the interaction. However, several challenges remain from a ubiquitous computing perspective, such as the definitions discrepancy of cognitive activities (for example, cognitive bias or information need) and the lack of standard practice for collecting and processing physiological data in human-information interaction (HII). 
+                        <br><br>In this workshop, we bring together researchers from different disciplines to form a common understanding of cognitive activities, discuss best practices to quantify the cognitive aspects of human-information interaction, and reflect on potential applications and ethical issues arising from physiological sensing methods.
+                    </p>
+				</div>
+			</div>
+		</section>
 
-  <!-- <h2> Workshop at Ubicomp/ISWC 2024  </h2> -->
+        
+        <section id="cfp" class="works">
+			<div class="container">
+                <div class="section-header">
+                    <h2>Call For Papers</h2>
+                    <div class="works-content">
+                        <p>
+                            We invite researchers and practitioners who use physiological data to measure user experience in information interaction to submit their contributions as a short research summary or position paper <strong>(4 pages in the SIGCHI one-column format, excluding references)</strong> discussing one or more of the workshop themes. 
+                            <br>
+                            Each submission will be reviewed by the workshop organizers and accepted based on the quality of the submission, the potential to generate fruitful discussions, and the diversity of perspectives. Accepted submissions will be invited to give a talk at our workshop and encouraged to record a short 3-5 minutes video summarizing their work.
+                        </p>
+                    </div>
+                    
+				</div>
+                <div class="section-header">
+                    <br>
+                    <h2>Key Dates</h2>
+                    <p class="content-highlight">
+                    Deadline for Workshop Paper Submissions: June 7, 2024 <br>
+                    Notification of Acceptance: June 28, 2024 <br>
+                    Workshop Date: TBC (October 5 or 6, 2024)
+                    </p>
+                </div>
+			</div>
+		</section>
 
-    <div class="banner">
-        <img src="assets/banner.jpg" alt="Conference Template Banner">
-        <div class="top-left">
-          <!-- <p> Advancing Physiological Methods in Human-Information Interaction </p> -->
-            <!-- <span class="title3">Advancing Physiological Methods in Human-Information Interaction</span> <span class="year">Ubicomp/ISWC '24</span> -->
-        </div>
-        <div class="bottom-right">
-            October 5-6, 2024 <br> Melbourne, Australia
-        </div>
-    </div>
+        <hr class="featurette-divider">
 
-    <!-- <table class="navigation">
-        <tr>
-            <td class="navigation">
-                <a class="current" title="Conference Home Page" href=".">Home</a>
-            </td>
-            <td class="navigation">
-                <a title="Register for the Conference" href="registration">Registration</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Program" href="program">Program</a>
-            </td>
-            <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Flyer" href="flyer">Flyer</a>
-            </td>
-        </tr>
-    </table> -->
-
-
-
-    <h2>About This Workshop</h2>
-
-    <p>
-        With the advancement of pervasive technology, information interaction has become increasingly ubiquitous. In these diverse information access devices and interfaces, it is crucial to understand and improve the user experience during human-information interaction. In recent years, we have seen a rapid uptake of physiological sensors used to estimate the cognitive aspect of the interaction. However, several challenges remain from a ubiquitous computing perspective, such as the definitions discrepancy of cognitive activities (for example, cognitive bias or information need) and the lack of standard practice for collecting and processing physiological data in human-information interaction (HII). In this workshop, we bring together researchers from different disciplines to form a common understanding of cognitive activities, discuss best practices to quantify the cognitive aspects of human-information interaction, and reflect on potential applications and ethical issues arising from physiological sensing methods.
-    </p>
-
-    <h2>Call For Papers</h2>
-    <p>
-    We invite researchers and practitioners who use physiological data to measure user experience in information interaction to submit their contributions as a short research summary or position paper (4 pages in the SIGCHI one-column format, excluding references) discussing one or more of the workshop themes. Each submission will be reviewed by the workshop organizers and accepted based on the quality of the submission, the potential to generate fruitful discussions, and the diversity of perspectives. Accepted submissions will be invited to give a talk at our workshop and encouraged to record a short 3-5 minutes video summarizing their work.
-  </p>
-
-  <p>
-    Deadline for Workshop Paper Submissions: June 7, 2024 <br>
-    Notification of Acceptance: June 28, 2024 <br>
-    Workshop Date: TBC (October 5 or 6, 2024)
-  </p>
-
-    <h2>Workshop Themes</h2>
-    We invite contributions that discuss about one or more of the following themes:
-
-
-    <h4>Exploring and Defining Cognitive Activities in HII </h4>
-    <p>
-      What cognitive activities impact the interaction between humans and information? We aim to uncover cognitive activities involved in HII and build a common understanding among cross-disciplinary researchers. Previous research has investigated a diverse set of cognitive activities, e.g., relevance judgment, information satisfaction, and cognitive biases.
-    </p>
-
-    <h4>Methods to Quantify Cognitive Activities </h4>
-    <p>
-       What tools and modalities can quantify cognitive activities in HII? What are the ground truths, and do we need them?  How can we ensure that the collected data are ecologically valid? What are the considerations for using physiological sensors in HII settings?
-     </p>
-
-     <h4>Application Scenarios and Impacts </h4>
-     <p>
-        We seek to explore how cognitive activity quantification can impact human-information interaction. What kind of applications would cognitive activity quantification enable and benefit users of information systems? At the same time, what are ethical, legal, and privacy considerations arising from using physiological sensors in HII?
-      </p>
-
-    <h4>Case Studies</h4>
-    <p>
-       We would like to see realistic cases where the utilization of physiological signals has been adopted into research related to human-information interaction.
-    </p>
+        <section id="themes" class="works">
+			<div class="container">
+                <div class="section-header">
+                    <h2>Workshop Themes</h2>
+                    <div class="works-content">
+                        <p class="row">
+                        We invite contributions that discuss about one or more of the following themes:
+                        </p>
+                        <div class="row">
+                            <h4>Exploring and Defining Cognitive Activities in HII </h4>
+                            <p>
+                            What cognitive activities impact the interaction between humans and information? We aim to uncover cognitive activities involved in HII and build a common understanding among cross-disciplinary researchers. Previous research has investigated a diverse set of cognitive activities, e.g., relevance judgment, information satisfaction, and cognitive biases.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <h4> Methods to Quantify Cognitive Activities </h4>
+                            <p>
+                               What tools and modalities can quantify cognitive activities in HII? What are the ground truths, and do we need them?  How can we ensure that the collected data are ecologically valid? What are the considerations for using physiological sensors in HII settings?
+                             </p>
+                        </div>
+                        <div class="row">
+                            <h4> Application Scenarios and Impacts </h4>
+                            <p>
+                               We seek to explore how cognitive activity quantification can impact human-information interaction. What kind of applications would cognitive activity quantification enable and benefit users of information systems? At the same time, what are ethical, legal, and privacy considerations arising from using physiological sensors in HII?
+                             </p>
+                        </div>
+                        <div class="row">
+                            <h4> Case Studies</h4>
+                            <p>
+                               We would like to see realistic cases where the utilization of physiological signals has been adopted into research related to human-information interaction.
+                            </p>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
 
 
 
-    <h2>Organizers</h2>
-    <p>
-        Nattapat Boonprakong (The University of Melbourne)
-    </p>
-    <p>
-        Kaixin Ji (RMIT University)
-    </p>
-    <p>
-        Ziyi Ye (Tsinghua University)
-    </p>
-    <p>
-        Benjamin Tag (Monash University)
-    </p>
-    <p>
-        Damiano Spina (RMIT University)
-    </p>
-    <p>
-        Tuukka Ruotsalo (University of Copenhagen and LUT University)
-    </p>
-    <p>
-        Flora Salim (The University of New South Wales)
-    </p>
+        <hr class="featurette-divider">
+
+        <section id="organizers" class="works">
+			<div class="container">
+                <div class="section-header">
+                    <h2>Organizers</h2>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Nattapat Boonprakong</strong>
+                            is a PhD candidate at the School of Computing and Information Systems, the University of Melbourne, Australia. His research is specifically focused on the quantification and mitigation of cognitive biases in the context of information consumption and misinformation. He employed a range of physiological sensors (for example, fNIRS and EDA) to measure the occurrences of confirmation bias. Nattapat has previously organized a workshop on cognitive bias quantification.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Kaixin Ji</strong>
+                            is a PhD candidate at the School of Computing Technologies, RMIT University, Australia. Her research is about quantifying and measuring cognitive bias with multi-modal physiological sensing, including EEG, EDA, PPG, and eye-tracking. She specifically focuses on the occurrences of cognitive bias as a sequence of decisions made during interactive information-seeking processes.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Ziyi Ye</strong>
+                            is a PhD candidate at Tsinghua University, China. His research interest is using brain signals to improve search evaluation and performance. Recently, he has focused on investigating the potential relationship between LLM and the brain model.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Benjamin Tag</strong>
+                            is a Lecturer in the Embodied Visualisation Group at Monash University, Australia. He is researching ways to quantify and understand human emotions and cognition by combining methods from cognitive psychology and ubiquitous computing. He is interested in deploying commodity devices (e.g., smartphones) in everyday settings to enable comprehensive long-term mental state assessments.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Damiano Spina</strong>
+                            is a Senior Lecturer at the School of Computing Technologies, RMIT University, Australia. His research focuses on interactive information retrieval -- including conversational agents -- and evaluation of information access systems in terms of effectiveness and fairness. He has co-organized workshops in international conferences (including WWW, SIGIR, ICWSM, and CHIIR) and shared tasks for evaluation campaigns at CLEF and IberLEF.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Tuukka Ruotsalo</strong>
+                            is an Associate Professor of Computer Science at the University of Copenhagen, Denmark, and LUT University, Finland. His research is in machine learning for physiological and cognitive computing, information retrieval, and human-computer interaction.
+                        </p>
+                    </div>
+                    <div class="row people">
+                        <img src="../ubi24/assets/banner.jpg" class="profile">
+                        <p>
+                            <strong>Flora Salim</strong>
+                            is a Professor of AI and Ubiquitous Computing and a Cisco Chair at the School of Computer Science and Engineering (CSE), UNSW, Australia. Her research is on machine learning for multimodal sensor data and on trustworthy AI. 
+                        </p>
+                    </div>
+				</div>
+			</div>
+		</section>
+
+		<!--footer start-->
+        <footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+                           <div class="class="col-sm-9">
+			                <ul class="footer-menu-item">
+			                    <li class=" scroll active"><a href="#about">About</a></li>
+			                    <li class="scroll"><a href="#themes">Themes</a></li>
+			                    <li class="scroll"><a href="#cfp">CfP</a></li>
+			                    <li class="scroll"><a href="#organizers">Organizers</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+		           </div>
+				</div>
+				
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+			
+        </footer><!--/.footer-->
+
+
     <!-- <table class="sponsors">
         <tr>
             <td class="sponsor">
