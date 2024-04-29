@@ -324,8 +324,10 @@ font-size: 19px;}
     color: #a5adb3;
     font-size: 14px;
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: initial;
 }
+
+/* footer{font-size:0.875em; margin-top:12em; text-align:center;} */
 
 @keyframes example {
     0%   {bottom:0px;}
