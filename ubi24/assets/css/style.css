@@ -354,7 +354,7 @@ p.profile_description, p.left {
   	text-justify: inter-word;
 }
 
-table.sponsors{width:800px;}
-td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 200px; height: 400px;}
+/* table.sponsors{width:800px;} */
+td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle;}
+td.sponsor img{width: 150px; height: 300px;}
 /*========================Thank you=================
