@@ -316,8 +316,10 @@ font-size: 19px;}
     transition:0.3s linear;
 }
 .footer-menu ul.footer-menu-item li a:hover{color: #f43032;}
+
 .hm-footer-copyright {
     padding: 40px 0;
+	margin-left: 5%;
     border-top: 1px solid #e1e5eb;
 }
 .hm-footer-copyright p,.hm-footer-copyright p a {
@@ -357,4 +359,5 @@ p.profile_description, p.left {
 /* table.sponsors{width:800px;} */
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle;}
 td.sponsor img{width: 150px; height: 300px;}
+
 /*========================Thank you=================
