@@ -58,14 +58,14 @@ p {
     text-transform: initial;
 }
 img{border:none;max-width:100%; height:auto;}
+
+
 ul{
-	padding: 0;
-    margin: 0 auto;
-    list-style: none;
+    font-size:14px;
 }
+
 ul li {
-	list-style: none;
-	
+	font-size:14px;
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;font-size: 12px;}
@@ -278,6 +278,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .works{padding: 0 0 50px;}
 .works-content {margin-top: 50px;}
+/* .works-content-no-box {margin-top: 20px;} */
 
 .works-content{
     text-align: left;
@@ -286,11 +287,22 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     box-shadow: 0 0px 5px rgba(71,71,71,.2);
 }
 
+.works-content-no-box{
+    text-align: left;
+    padding:30px 42px;
+}
+
+
 .works-content h4 {text-transform: initial; font-weight: bold; 
-    font-size: 22px;}
+    font-size: 20px;}
     
 .works-content p {margin-bottom: 25px;text-transform: initial;
-font-size: 19px;}
+font-size: 17px;}
+
+.works-content-no-box p b {font-size: 17px;}
+
+.works-content-no-box p {margin-bottom: 25px;text-transform: initial;
+    font-size: 15px; }
 
 .works-content a {text-transform: lowercase !important;}
 
@@ -327,6 +339,7 @@ font-size: 19px;}
     font-size: 14px;
     font-weight: 400;
     text-transform: initial;
+    line-height: 1.1;
 }
 
 /* footer{font-size:0.875em; margin-top:12em; text-align:center;} */

@@ -23,6 +23,21 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>Ubicomp'24 Workshop on Advancing Physiological Methods in HII</title>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+		  // Check if the URL contains a hash
+		  const { hash } = window.location;
+		  if (hash) {
+			// Try to find the element
+			const target = document.getElementById(hash.slice(1));
+			if (target) {
+			  // Scroll to the element smoothly
+			  target.scrollIntoView({ behavior: "smooth" });
+			}
+		  }
+		});
+		</script>
 </head>
 
 <body>
@@ -46,10 +61,9 @@
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class="scroll active"><a href="#about">About</a></li>
-					    <li class="scroll"><a href="#cfp">CfP</a></li>
-			                    <li class="scroll"><a href="#themes">Themes</a></li>
-			                    <li class="scroll"><a href="#organizers">Organizers</a></li>
+			                    <li class="scroll active"><a href="index.html">About</a></li>
+								<li class="scroll"><a href="cfp.html">CfP</a></li>
+			                    <li class="scroll"><a href="committee.html">committee</a></li>
 					     <li class="scroll"><a href="https://hii-biosignal.github.io/ubi24/APhyMeHII-2024-proposal.pdf">Workshop Proposal</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
@@ -80,91 +94,82 @@
 			<div class="container">
                 <div class="section-header">
                     <br>
-                    <h2>About This Workshop</h2>
+					<div>
+						<p style="color: red; font-style: italic;">
+						📢 Join us for an engaging, interactive workshop to explore the fascinating world of user experience in HII! <br>
+						</p>
+						<br><br>
+					</div>
+					<h2>About This Workshop</h2>
+					<div class="works-content">
                     <p>
                         With the advancement of pervasive technology, <b>Human-Information Interaction (HII)</b> has become increasingly ubiquitous. In these diverse information access devices and interfaces, it is crucial to understand and improve the user experience during human-information interaction. In recent years, we have seen a rapid uptake of physiological sensors used to estimate the cognitive aspect of the interaction. However, several challenges remain from a ubiquitous computing perspective, such as the definitions discrepancy of cognitive activities (for example, cognitive bias or information need) and the lack of standard practice for collecting and processing physiological data in information interaction. 
-                        <br><br>In this workshop, we bring together researchers from different disciplines to form a common understanding of cognitive activities, discuss best practices to quantify the cognitive aspects of human-information interaction, and reflect on potential applications and ethical issues arising from physiological sensing methods.
-                    	
-		    </p>
+                        <br><br>
+						This workshop aims to discuss and establish a common understanding of user experience in HII, discuss best practices to quantify with physiological sensing methods, and also reflect on potential applications and ethical issues. 
+					<!-- In this workshop, we bring together researchers from different disciplines to form a common understanding of cognitive activities, discuss best practices to quantify the cognitive aspects of human-information interaction, and reflect on potential applications and ethical issues arising from physiological sensing methods. -->
+		    </p><br>
+				<p style="font-weight: bold;">
+				📝Register via <a href="https://www.ubicomp.org/ubicomp-iswc-2024/attending/registration/"> Ubicomp website</a>
+				</p>
+				</div>	
 				</div>
 			</div>
 		</section>
 
-        
-        <section id="cfp" class="works">
-			<div class="container">
-                <div class="section-header">
-                    <h2>Call For Papers</h2>
-                    <div class="works-content">
-                        <p>
-                            We invite researchers and practitioners who use physiological data to measure user experience in information interaction to submit their contributions as a short research summary or position paper <strong>
-				    (4 pages in the <a href="https://www.ubicomp.org/ubicomp-iswc-2024/authors/formatting/">SIGCONF one-column format</a>, excluding references)
-			    </strong> discussing one or more of the workshop themes. 
-                            <br><br>
-                            Each submission will be reviewed by the workshop organizers and members of the program committee and accepted based on the quality of the submission, 
-				the potential to generate fruitful discussions, and the diversity of perspectives. 
-				Accepted submissions will be invited to give a talk at our workshop and featured on the ACM DL (as part of the UbiComp/ISWC '24 Adjunct Proceedings). 
-				<!-- Upon acceptence, authors are also encouraged to record a short 3-5 minutes video summarizing their work. -->
-                        
-			    <br><br>
-			    Single-blind review: Submissions are <strong>NOT</strong> anonymous, and authors should list their details in their submissions.
-			    <br><br> 
-			    To submit your contribution, please go to PCS (<a href="https://new.precisionconference.com/submissions">https://new.precisionconference.com/submissions</a>), select conference "UbiComp/ISWC 2024" and select track "UbiComp/ISWC 2024: Workshop on Physiological Methods for HII". 
-			    <br><br>Please correspond any question to <a href="mailto:biosignal.ubicomp24@gmail.com">biosignal.ubicomp24@gmail.com</a>. 
-				<br>Our workshop proposal is available <a href="https://hii-biosignal.github.io/ubi24/APhyMeHII-2024-proposal.pdf">here</a>.
-			</p>
-                    </div>
-                    
-				</div>
-                <div class="section-header">
-                    <br>
-                    <h2>Key Dates</h2>
-                    <p class="content-highlight">
-                    Deadline for Workshop Paper Submissions: <s>June 7</s> <s>June 21 </s> July 2, 2024 (AoE time)<br>
-                    Notification of Acceptance: June 28, 2024 <br>
-                    Workshop Date: October 5, 2024
-                    </p>
-                </div>
-			</div>
-		</section>
-
-        <hr class="featurette-divider">
+    
 
         <section id="themes" class="works">
 			<div class="container">
                 <div class="section-header">
-                    <h2>Workshop Themes</h2>
-                    <div class="works-content">
-                        <p class="row">
-                        We invite contributions that discuss one or more of the following research themes across various scenarios, e.g., audio, web, or mobile interactions. 
-				In this regard, we also welcome authors to submit replication studies, negative results, and open datasets.
-                        </p>
+                    <h2>Workshop Themes</h2><br>
+					<p>
+						We welcome researchers and students from diverse fields who are interested in this area to engage in in-depth discussions of the following research themes:
+					</p>
+                    <div class="works-content-no-box">
+                        <!-- We invite contributions that discuss one or more of the following research themes across various scenarios, e.g., audio, web, or mobile interactions.  -->
+				<!-- In this regard, we also welcome authors to submit replication studies, negative results, and open datasets. -->
+             
                         <div class="row">
-                            <h4>Exploring and Defining Cognitive Activities in HII </h4>
-                            <p>
-                            What cognitive activities impact the interaction between humans and information? We aim to uncover cognitive activities involved in HII and build a common understanding among cross-disciplinary researchers. Previous research has investigated a diverse set of cognitive activities, e.g.,relevance judgment<a href="https://dl.acm.org/doi/10.1145/3637874">[1]</a>, information satisfaction<a href="https://onlinelibrary.wiley.com/doi/10.1002/asi.22871">[2]</a>, and cognitive biases<a href="https://doi.org/10.1145/3406522.3446023">[3]</a>.
-				    We welcome discussions with regards to different interaction scenarios that involve information-based activities. This includes but is not limited to web search, conversational search, social media interactions, or interactions with Large Language Models.
-                            </p>
+                            <p><b>📍 Exploring and Defining Cognitive Activities in HII.</b> For example:<br>
+								<span style="padding-inline-start: 2em;font-size: medium;">
+								 What cognitive activities impact the interaction between humans and information, e.g., relevance, satisfaction, cognitive bias?							
+                            <br>
+							</span>
+								<!-- We aim to uncover cognitive activities involved in HII and build a common understanding among cross-disciplinary researchers. Previous research has investigated a diverse set of cognitive activities, e.g.,relevance judgment<a href="https://dl.acm.org/doi/10.1145/3637874">[1]</a>, information satisfaction<a href="https://onlinelibrary.wiley.com/doi/10.1002/asi.22871">[2]</a>, and cognitive biases<a href="https://doi.org/10.1145/3406522.3446023">[3]</a>. -->
+				    <!-- We welcome discussions with regards to different interaction scenarios that involve information-based activities.  -->
+					<span style="padding-inline-start: 2em;font-size: medium;"> This includes but is not limited to web search, conversational search, social media interactions, or interactions with Large Language Models.
+                    </span>       
+					</p>
                         </div>
                         <div class="row">
-                            <h4> Methods to Quantify Cognitive Activities in HII </h4>
-                            <p>
-                               What tools and modalities can quantify cognitive activities in HII? What are the ground truths, and do we need them?  How can we ensure that the collected data are ecologically valid? What are the considerations for using physiological sensors in HII settings? Past research has employed several modalities of physiological signals to quantify cognitive activities in HII; for example, Electrodermal Activity (EDA) <a href="https://doi.org/10.1145/3539618.3591981">[4]</a>,<a href="https://arxiv.org/abs/2405.00322">[5]</a>, Electroencephalography (EEG) <a href="https://doi.org/10.1145/3485447.351196">[6]</a>, Blood Volume Pulse <a href="https://arxiv.org/abs/2405.00322">[7]</a>, Pupillary Responses <a href="https://doi.org/10.1145/3576840.357829">[8]</a>, or Functional Near-Infrared Spectroscopy (fNIRS) <a href="https://doi.org/10.1145/3544548.3580917">[9]</a>. 
-				    Yet, we lack a clear community standard for processing these data in the realm of Information Interaction. To date, research in HCI has suggested guidelines for collecting and processing EDA <a href="https://doi.org/10.1145/3411764.3445370">[10]</a> and brain signals <a href="https://dl.acm.org/doi/full/10.1145/3490554">[11]</a>.
+							<p>
+                            <b>📍 Methods to Quantify Cognitive Activities in HII.</b> For example:<br>
+							<span style="padding-inline-start: 2em;font-size: medium;">
+							 What tools and modalities can quantify cognitive activities in HII? <br>
+							<span style="padding-inline-start: 2em; font-size: medium;">    What are the ground truths, and do we need them? <br></span>
+							<span style="padding-inline-start: 2em;font-size: medium;">    How can we ensure that the collected data are ecologically valid? <br></span>
+							<span style="padding-inline-start: 2em;font-size: medium;">    What are the considerations for using physiological sensors in HII settings? <br></span>
+							   <!-- Past research has employed several modalities of physiological signals to quantify cognitive activities in HII; for example, Electrodermal Activity (EDA) <a href="https://doi.org/10.1145/3539618.3591981">[4]</a>,<a href="https://arxiv.org/abs/2405.00322">[5]</a>, Electroencephalography (EEG) <a href="https://doi.org/10.1145/3485447.351196">[6]</a>, Blood Volume Pulse <a href="https://arxiv.org/abs/2405.00322">[7]</a>, Pupillary Responses <a href="https://doi.org/10.1145/3576840.357829">[8]</a>, or Functional Near-Infrared Spectroscopy (fNIRS) <a href="https://doi.org/10.1145/3544548.3580917">[9]</a>.  -->
+				    <!-- Yet, we lack a clear community standard for processing these data in the realm of Information Interaction. To date, research in HCI has suggested guidelines for collecting and processing EDA <a href="https://doi.org/10.1145/3411764.3445370">[10]</a> and brain signals <a href="https://dl.acm.org/doi/full/10.1145/3490554">[11]</a>. -->
+                </span>            
+				</p>
+                        </div>
+                        <div class="row">
+                            <p><b>📍 Application Scenarios and Impacts.</b> For example:<br>
+								<span style="padding-inline-start: 2em;font-size: medium;">
+                               <!-- We seek to explore how cognitive activity quantification can impact human-information interaction.  -->
+							   What kind of applications would cognitive activity quantification enable and benefit users of information systems? <br>
+							  </span>
+							   <span style="padding-inline-start: 2em;font-size: medium;">  
+							   What are ethical, legal, and privacy considerations arising from employing physiological sensors in HII?<br>
+							   </span>
                              </p>
                         </div>
                         <div class="row">
-                            <h4> Application Scenarios and Impacts </h4>
-                            <p>
-                               We seek to explore how cognitive activity quantification can impact human-information interaction. 
-				    What kind of applications would cognitive activity quantification enable and benefit users of information systems? 
-				    At the same time, what are ethical, legal, and privacy considerations arising from employing physiological sensors in HII?
-                             </p>
-                        </div>
-                        <div class="row">
-                            <h4> Case Studies</h4>
-                            <p>
-                               We would like to see realistic cases where the utilization of physiological signals has been adopted into research related to human-information interaction.
+                            <p><b>📍 Case Studies:</b><br>
+								<span style="padding-inline-start: 2em;font-size: medium;">
+								Realistic cases where the utilization of physiological signals has been adopted into research related to HII.
+								</span>
                             </p>
                         </div>
                     </div>
@@ -175,12 +180,13 @@
 	<section id="committee" class="works">
 			<div class="container">
 	                	<div class="section-header">
-	                    		<h2>Workshop Program (TBA)</h2>
-			                   <div class="works-content">
+	                    		<h2>Workshop Program</h2>
+			                   <div>
 			                        <p>
-			                            This workshop is a half-day workshop. The program will feature interactive paper presentations, keynote talks, and group discussions. Please stay tuned for the detailed workshop program!
-						</p>
-					<h3>Keynote 1 -- Topic: TBA </h3>
+			                            This workshop is a half-day workshop, with interactive paper presentations, keynote talks, and group discussions. <br>
+										Please stay tuned for the detailed workshop program!
+
+					<!-- <h3>Keynote 1 -- Topic: TBA </h3>
 					<div class="row people">
 			                        <img src="../ubi24/assets/css/Yashar_profile.png" class="profile">
 						<p>Abstract: TBA </p>
@@ -189,98 +195,14 @@
 							He founded and leads the NeuraSearch Laboratory, which specializes in identifying, understanding, and modeling brain activities related to complex information search processes. 
 							His work involves modeling brain activities during complex information searches and developing proactive systems that predict users’ immediate information needs. [<a href="https://www.strath.ac.uk/staff/moshfeghiyashardr/">Website</a>]
 						</p>
-					</div>
+					</div> -->
 		                    </div>
+							<br>
 				</div>
 			</div>
 	</section>
 
-
-        <hr class="featurette-divider">
-
-        <section id="organizers" class="works">
-		<div class="container">
-                <div class="section-header">
-                    <h2>Organizers</h2>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/nat_profile.jpg" class="profile">
-                        <p>
-                            <strong>Nattapat Boonprakong</strong>
-                            is a PhD candidate at the School of Computing and Information Systems, the University of Melbourne, Australia. His research is specifically focused on the quantification and mitigation of cognitive biases in the context of information consumption and misinformation. He employed a range of physiological sensors (for example, fNIRS and EDA) to measure the occurrences of confirmation bias. [<a href="https://nattapatb.github.io/">Website</a>, <a href="https://twitter.com/nattapat_bo">X/Twitter</a>]
-                        </p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/kaixin_profile.jpeg" class="profile">
-                        <p>
-                            <strong>Kaixin Ji</strong>
-                            is a PhD candidate at the School of Computing Technologies, RMIT University, Australia, and ADM+S. Her research is about quantifying and measuring cognitive bias with multi-modal physiological sensing, including EEG, EDA, PPG, and eye-tracking. She specifically focuses on the occurrences of cognitive bias as a sequence of decisions made during interactive information-seeking processes.
-                        [<a href="https://linktr.ee/kaixinji">Website</a>]
-			</p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/ziyi_profile.png" class="profile">
-                        <p>
-                            <strong>Ziyi Ye</strong>
-                            is a PhD candidate at Tsinghua University, China. His research interest is using brain signals to improve search evaluation and performance. Recently, he has focused on investigating the potential relationship between LLM and the brain model.
-                        </p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/ben_profile.jpg" class="profile">
-                        <p>
-                            <strong>Benjamin Tag</strong>
-                            is a Lecturer in the Embodied Visualisation Group at Monash University, Australia. He is researching ways to quantify and understand human emotions and cognition by combining methods from cognitive psychology and ubiquitous computing. He is interested in deploying commodity devices (e.g., smartphones) in everyday settings to enable comprehensive long-term mental state assessments.
-                        </p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/damiano_profile.jpg" class="profile">
-                        <p>
-                            <strong>Damiano Spina</strong>
-                            is a Senior Lecturer at the School of Computing Technologies, RMIT University, Australia, and an Associate Investigator at ADM+S. His research focuses on interactive information retrieval -- including conversational agents -- and evaluation of information access systems in terms of effectiveness and fairness. He has co-organized workshops in international conferences (including WWW, SIGIR, ICWSM, and CHIIR) and shared tasks for evaluation campaigns at CLEF and IberLEF.
-                        </p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/tukka_profile.jpg" class="profile">
-                        <p>
-                            <strong>Tuukka Ruotsalo</strong>
-                            is an Associate Professor of Computer Science at the University of Copenhagen, Denmark, and LUT University, Finland. His research is in machine learning for physiological and cognitive computing, information retrieval, and human-computer interaction.
-                        </p>
-                    </div>
-                    <div class="row people">
-                        <img src="../ubi24/assets/css/flora_profile.jpg" class="profile">
-                        <p>
-                            <strong>Flora Salim</strong>
-                            is a Professor of AI and Ubiquitous Computing and a Cisco Chair at the School of Computer Science and Engineering (CSE), UNSW, Australia, and a Chief Investigator at ADM+S. Her research is on machine learning for multimodal sensor data and on trustworthy AI. 
-                        </p>
-                    </div>
-				</div>
-			</div>
-		
-		</section>
-
-	        <section id="committee" class="works">
-			<div class="container">
-	                	<div class="section-header">
-	                    		<h2>Program Committee</h2>
-		                    <div class="row people">
-					    <p style="text-align:center;"> Francesco Chiossi (LMU Munich) </p>
-					    <p style="text-align:center;"> Monica Perusquía-Hernández (Nara Institute of Science and Technology) </p>
-					    <p style="text-align:center;"> Abdallah El Ali (Centrum Wiskunde & Informatica) </p>
-					    <p style="text-align:center;"> Anam Ahmad Khan (Lancaster University) </p>
-					    <p style="text-align:center;"> Yashar Moshfeghi (University of Strathclyde) </p>
-					    <p style="text-align:center;"> Jacek Gwizdka (University of Texas at Austin) </p>
-					    <p style="text-align:center;"> Shuqi Zhu (Tsinghua University) </p>
-					    <p style="text-align:center;"> Shaorun Zhang (Tsinghua University) </p>
-					    <p style="text-align:center;"> Zhiyu He (Tsinghua University) </p>
-					    <p style="text-align:center;"> Congchi Yin (Nanjing University of Aeronautics and Astronautics) </p>
-					    <p style="text-align:center;"> Ruihua Song (Renmin University of China) </p>
-					    <p style="text-align:center;"> Nuo Chen (Hong Kong University of Science and Technology) </p>
-					    <p style="text-align:center;"> Sachin Pathiyan Cherumanal (RMIT University) </p>
-					    <p style="text-align:center;"> Danula Hettiachchi (RMIT University) </p>
-				    </div> 
-				</div>
-			</div>
-		</section>
-
+       
 
 	<section id="sponsors" class="works">
 		<div class="container">
