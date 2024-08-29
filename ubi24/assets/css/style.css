@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin: 0;
 	color:#767f86;
-	font-size:14px;
+	font-size:16px;
     line-height: 1.8;
     text-transform: initial;
 }
@@ -63,11 +63,11 @@ img{border:none;max-width:100%; height:auto;}
 
 
 ul{
-    font-size:14px;
+    font-size:16px;
 }
 
 ul li {
-	font-size:14px;
+	font-size:16px;
 }
 
 table {
@@ -79,7 +79,7 @@ table {
     border-collapse: separate;
 
     color:#767f86;
-	font-size:15px;
+	font-size:16px;
     line-height: 1.8;
     text-transform: initial;
 }
