@@ -336,6 +336,9 @@ font-size: 17px;}
 	line-height: 1;
 }
 
+.keynote p{
+ font-size: 17px;
+}
 #keynote-title{
 	text-align: center !important;
 	font-size: 20pt !important;
