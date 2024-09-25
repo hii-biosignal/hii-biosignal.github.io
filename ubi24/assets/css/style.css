@@ -334,8 +334,9 @@ text-align: justify;
 line-height: 1 !important;
 }
 
-.row keynote div{
-	margin: 0 10px;
+.keynote div{
+	margin: 10px 10px;
+	background: red;
 }
 
 
@@ -349,14 +350,12 @@ line-height: 1 !important;
   	display: block;
 	align-self: center;
 	align-items: center;
-	background: red;
 }
 
 
 #keynote-profile img {
     width: 150px !important;
-    height: 180px !important;
-    max-width: 50% !important;
+    height: auto  !important;
 }
 
 /*-------------------------------------
