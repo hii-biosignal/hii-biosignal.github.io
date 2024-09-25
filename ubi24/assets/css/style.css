@@ -339,6 +339,11 @@ line-spacing: 1 !important;
     height: 180px;
 }
 
+#keynote-title {
+	text-align: center !important;
+	font-size: 20pt !important;
+}
+
 #keynote-profile {
 	margin: auto;
   	display: block;
