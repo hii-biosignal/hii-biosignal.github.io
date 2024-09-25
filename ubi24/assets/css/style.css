@@ -330,7 +330,7 @@ font-size: 17px;}
 .works-content a {text-transform: lowercase !important;}
 
 .row keynote {
-text-align: left;
+text-align: justify;
 line-height: 1 !important;
 }
 
