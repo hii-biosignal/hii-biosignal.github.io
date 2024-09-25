@@ -339,10 +339,12 @@ font-size: 17px;}
 .keynote p{
  font-size: 17px;
 }
+
 #keynote-title{
 	text-align: center !important;
 	font-size: 20pt !important;
-	align-items: center;
+	align-items: center !important;
+	align-self: center !important;
 }
 
 #keynote-profile {
