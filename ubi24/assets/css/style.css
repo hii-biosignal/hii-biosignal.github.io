@@ -338,11 +338,6 @@ line-height: 1 !important;
 	margin: 0 10px;
 }
 
-#keynote-profile img {
-    width: 150px;
-    height: 180px;
-    max-width: 50%;
-}
 
 #keynote-title {
 	text-align: center !important;
@@ -355,6 +350,14 @@ line-height: 1 !important;
 	align-self: center;
 	align-items: center;
 }
+
+
+#keynote-profile img {
+    width: 150px !important;
+    height: 180px !important;
+    max-width: 50% !important;
+}
+
 /*-------------------------------------
         12. Footer
 --------------------------------------*/
