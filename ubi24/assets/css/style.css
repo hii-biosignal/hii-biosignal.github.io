@@ -339,10 +339,10 @@ line-height: 1 !important;
 	background: red;
 }
 
-
-#keynote-title {
+#keynote-title{
 	text-align: center !important;
 	font-size: 20pt !important;
+	align-items: center;
 }
 
 #keynote-profile {
@@ -354,7 +354,7 @@ line-height: 1 !important;
 
 
 #keynote-profile img {
-    width: 150px !important;
+    width: 180px !important;
     height: auto  !important;
 }
 
