@@ -334,6 +334,10 @@ text-align: left;
 line-spacing: 1 !important;
 }
 
+#keynote-profile>image {
+    width: 150px;
+    height: 180px;
+}
 
 #keynote-profile {
 	margin: auto;
