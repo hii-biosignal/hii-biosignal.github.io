@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
     text-transform: capitalize;
 }
+
 p {
 	margin: 0;
 	color:#767f86;
@@ -352,6 +353,10 @@ font-size: 17px;}
 #keynote-profile img {
     width: 180px !important;
     height: auto  !important;
+}
+
+#keynote h5 {
+	font-size: 25px;
 }
 
 /*-------------------------------------
