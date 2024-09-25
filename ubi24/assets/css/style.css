@@ -329,11 +329,15 @@ font-size: 17px;}
 
 .works-content a {text-transform: lowercase !important;}
 
-.keynote {
-	text-align: left;
+.row keynote {
+text-align: left;
+line-spacing: 1 !important;
 }
 
+
 .keynote-profile {
+	margin: auto;
+  	display: block;
 	align-self: center;
 	align-items: center;
 }
