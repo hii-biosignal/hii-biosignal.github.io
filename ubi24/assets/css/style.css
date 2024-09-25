@@ -329,14 +329,10 @@ font-size: 17px;}
 
 .works-content a {text-transform: lowercase !important;}
 
-.row keynote {
-text-align: justify;
-line-height: 1 !important;
-}
-
 .keynote div{
 	margin: 10px 10px;
-	background: red;
+	text-align: justify;
+	line-height: 1;
 }
 
 #keynote-title{
