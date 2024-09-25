@@ -334,7 +334,11 @@ text-align: left;
 line-height: 1 !important;
 }
 
-#keynote-profile>image {
+.row keynote > div{
+	margin-bottom: 10px;
+}
+
+#keynote-profile>img {
     width: 150px;
     height: 180px;
 }
