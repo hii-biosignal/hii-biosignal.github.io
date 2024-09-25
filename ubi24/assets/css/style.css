@@ -329,6 +329,10 @@ font-size: 17px;}
 
 .works-content a {text-transform: lowercase !important;}
 
+.keynote-profile {
+	align-self: center;
+	align-items: center;
+}
 /*-------------------------------------
         12. Footer
 --------------------------------------*/
