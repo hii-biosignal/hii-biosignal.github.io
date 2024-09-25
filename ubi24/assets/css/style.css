@@ -356,9 +356,10 @@ font-size: 17px;}
 #keynote-profile img {
     width: 180px !important;
     height: auto  !important;
+	align-self: center;
 }
 
-#keynote h5 {
+#keynote h4 {
 	font-size: 25px;
 }
 
