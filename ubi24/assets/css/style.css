@@ -329,6 +329,10 @@ font-size: 17px;}
 
 .works-content a {text-transform: lowercase !important;}
 
+.keynote {
+	text-align: left;
+}
+
 .keynote-profile {
 	align-self: center;
 	align-items: center;
